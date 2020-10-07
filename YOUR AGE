@@ -1,0 +1,22 @@
+
+	public static void main(String[] args) {
+		int age=19;
+		String result;
+		switch (age) {
+		case 17: 
+			
+			result = "You Are 17 Years old!";
+			break; 	
+		case 18:
+			result = "You Are 18 Years old!";
+			break;
+		default:
+			result = "NULL";
+			break;	
+		}
+		System.out.println(result);	
+			
+	}
+	
+
+
